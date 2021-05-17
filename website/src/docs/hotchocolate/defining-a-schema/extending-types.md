@@ -114,7 +114,7 @@ public class Session
 
 We could start adding our GraphQL concerns to this type directly. But often, we want to keep our entity clean from any graph concerns.
 
-To replace the `TrackId` with a field `Track` that returns the `Tack` object we could do the following.
+To replace the `TrackId` with a field `Track` that returns the `Track` object we could do the following.
 
 ```csharp
 [ExtendObjectType(typeof(Session))]
